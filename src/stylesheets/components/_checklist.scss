@@ -12,7 +12,7 @@
   margin-top: units(1);
 
   &.is-checked,
-  // Deprecate usa-checklist-checked once the js is updated
+  // TODO: Deprecate usa-checklist-checked once the js is updated
   &.usa-checklist-checked {
     @include add-success-mark;
   }
