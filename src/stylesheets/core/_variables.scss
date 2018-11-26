@@ -528,6 +528,16 @@ $color-palette-grayscale: $system-color-gray;
 
 /*
 ----------------------------------------
+Luminance helpers
+----------------------------------------
+*/
+
+$luminance-midpoint: luminance(color('gray-50'));
+$luminance-lighter: luminance(color('gray-40'));
+$luminance-critical: ($luminance-midpoint + $luminance-lighter) / 2;
+
+/*
+----------------------------------------
 Build the project type scale map
 ----------------------------------------
 */
