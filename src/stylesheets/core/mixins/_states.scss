@@ -1,0 +1,37 @@
+@mixin states-color($initial, $hover: $initial, $active: $initial, $visited: $initial) {
+  color: color($initial);
+
+  &:visited,
+  &.is-visited {
+    color: color($visited);
+  }
+
+  &:hover,
+  &.is-hover {
+    color: color($hover);
+  }
+
+  &:active,
+  &.is-active {
+    color: color($active);
+  }
+}
+
+@mixin states-bg($initial, $hover: $initial, $active: $initial, $visited: $initial, $visited: $initial) {
+  background-color: color($initial);
+
+  &:visited,
+  &.is-visited {
+    background-color: color($visited);
+  }
+
+  &:hover,
+  &.is-hover {
+    background-color: color($hover);
+  }
+
+  &:active,
+  &.is-active {
+    background-color: color($active);
+  }
+}
