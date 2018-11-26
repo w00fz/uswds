@@ -2,6 +2,12 @@ label: Buttons
 status: ready
 
 variants:
+  - name: primary
+    context:
+      category: alternate
+      label: Primary buttons
+      classes: 'usa-button-primary'
+
   - name: secondary
     context:
       category: alternate
@@ -14,26 +20,62 @@ variants:
       label: Accent cool buttons
       classes: 'usa-button-accent-cool'
 
+  - name: accent-warm
+    context:
+      category: alternate
+      label: Accent warm buttons
+      classes: 'usa-button-accent-warm'
+
   - name: base
     context:
       category: alternate
       label: Gray buttons
       classes: 'usa-button-base'
 
+  - name: inverse
+    context:
+      category: alternate
+      label: Inverse buttons
+      classes: 'usa-button-inverse'
+
+  - name: info
+    context:
+      category: alternate
+      label: Info buttons
+      classes: 'usa-button-info'
+
+  - name: warning
+    context:
+      category: alternate
+      label: Warning buttons
+      classes: 'usa-button-warning'
+
+  - name: error
+    context:
+      category: alternate
+      label: Error buttons
+      classes: 'usa-button-error'
+
+  - name: success
+    context:
+      category: alternate
+      label: Success buttons
+      classes: 'usa-button-success'
+
   - name: outline
     context:
       category: outline
       label: outline buttons
-      classes: 'usa-button-outline'
+      classes: 'usa-button-outline usa-button-primary'
 
   - name: outline-inverse
     context:
       category: outline-inverse
       label: outline inverse buttons
-      classes: 'usa-button-outline-inverse'
+      classes: 'usa-button-outline usa-button-inverse'
 
   - name: big
     context:
       category: 'big'
       label: Big button
-      classes: 'usa-button-big'
+      classes: 'usa-button-big usa-button-primary'
