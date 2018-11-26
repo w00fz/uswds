@@ -134,60 +134,60 @@ $button-stroke: 2px;
   }
 
   &.usa-button-outline {
-    @include add-inset-stroke($button-stroke, 'primary')
+    @include add-inset-stroke($button-stroke, 'primary');
     @include states-bg('transparent');
     @include states-color('primary', 'primary-dark', 'primary-darker');
 
     &:hover,
     &.is-hover {
-      @include add-inset-stroke($button-stroke, 'primary-dark')
+      @include add-inset-stroke($button-stroke, 'primary-dark');
     }
 
     &:active,
     &.is-active {
-      @include add-inset-stroke($button-stroke, 'primary-darker')
+      @include add-inset-stroke($button-stroke, 'primary-darker');
     }
 
     &.usa-button-primary {
-      @include add-inset-stroke($button-stroke, 'primary')
+      @include add-inset-stroke($button-stroke, 'primary');
       @include states-bg('transparent');
       @include states-color('primary', 'primary-dark', 'primary-darker');
 
       &:hover,
       &.is-hover {
-        @include add-inset-stroke($button-stroke, 'primary-dark')
+        @include add-inset-stroke($button-stroke, 'primary-dark');
       }
 
       &:active,
       &.is-active {
-        @include add-inset-stroke($button-stroke, 'primary-darker')
+        @include add-inset-stroke($button-stroke, 'primary-darker');
       }
 
       &:disabled,
       &.is-disabled {
-        @include add-inset-stroke($button-stroke, 'disabled')
+        @include add-inset-stroke($button-stroke, 'disabled');
         color: color('disabled');
       }
     }
 
     &.usa-button-inverse,
     &.usa-button-white {
-      @include add-inset-stroke($button-stroke, 'base-lighter')
+      @include add-inset-stroke($button-stroke, 'base-lighter');
       @include states-color('base-lighter', 'base-lightest', 'white');
 
       &:hover,
       &.is-hover {
-        @include add-inset-stroke($button-stroke, 'base-lightest')
+        @include add-inset-stroke($button-stroke, 'base-lightest');
       }
 
       &:active,
       &.is-active {
-        @include add-inset-stroke($button-stroke, 'white')
+        @include add-inset-stroke($button-stroke, 'white');
       }
 
       &:disabled,
       &.is-disabled {
-        @include add-inset-stroke($button-stroke, 'base')
+        @include add-inset-stroke($button-stroke, 'base');
         background-color: color('transparent');
         color: color('base');
       }
