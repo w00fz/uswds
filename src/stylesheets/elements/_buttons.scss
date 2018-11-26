@@ -188,6 +188,7 @@ $button-stroke: 2px;
       &:disabled,
       &.is-disabled {
         @include add-inset-stroke($button-stroke, 'base')
+        background-color: color('transparent');
         color: color('base');
       }
     }
