@@ -196,7 +196,7 @@ $button-stroke: 2px;
 }
 
 .usa-button-big {
-  @include button
+  @include button;
   @include states-bg('primary', 'primary-dark', 'primary-darker');
   @include states-color('white');
   border-radius: radius('md');
